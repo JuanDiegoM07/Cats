@@ -22,9 +22,10 @@
 		B002A20B291D98BB0084DA72 /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = B002A20A291D98BA0084DA72 /* Thread.swift */; };
 		B002A20D291D98DB0084DA72 /* NetWorkingValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B002A20C291D98DB0084DA72 /* NetWorkingValidator.swift */; };
 		B002A210291D9B0F0084DA72 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B002A20F291D9B0F0084DA72 /* UIImageViewExtensions.swift */; };
-		B002A212291D9B660084DA72 /* CatsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B002A211291D9B660084DA72 /* CatsRepository.swift */; };
+		B002A212291D9B660084DA72 /* ApiCats.swift in Sources */ = {isa = PBXBuildFile; fileRef = B002A211291D9B660084DA72 /* ApiCats.swift */; };
 		B002A216291D9C1F0084DA72 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B002A214291D9C1F0084DA72 /* CustomTableViewCell.swift */; };
 		B002A217291D9C1F0084DA72 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B002A215291D9C1F0084DA72 /* CustomTableViewCell.xib */; };
+		B002A219291D9FB10084DA72 /* CatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B002A218291D9FB10084DA72 /* CatsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,9 +65,10 @@
 		B002A20A291D98BA0084DA72 /* Thread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
 		B002A20C291D98DB0084DA72 /* NetWorkingValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkingValidator.swift; sourceTree = "<group>"; };
 		B002A20F291D9B0F0084DA72 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensions.swift; sourceTree = "<group>"; };
-		B002A211291D9B660084DA72 /* CatsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsRepository.swift; sourceTree = "<group>"; };
+		B002A211291D9B660084DA72 /* ApiCats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCats.swift; sourceTree = "<group>"; };
 		B002A214291D9C1F0084DA72 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		B002A215291D9C1F0084DA72 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		B002A218291D9FB10084DA72 /* CatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				B002A206291D98880084DA72 /* Utils */,
-				B002A203291D98640084DA72 /* Repository */,
+				B002A203291D98640084DA72 /* Data */,
 				B002A202291D985C0084DA72 /* ViewModel */,
 				B002A201291D98530084DA72 /* View */,
 				B002A1FF291D98440084DA72 /* Model */,
@@ -170,16 +172,17 @@
 		B002A202291D985C0084DA72 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				B002A218291D9FB10084DA72 /* CatsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		B002A203291D98640084DA72 /* Repository */ = {
+		B002A203291D98640084DA72 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				B002A211291D9B660084DA72 /* CatsRepository.swift */,
+				B002A211291D9B660084DA72 /* ApiCats.swift */,
 			);
-			path = Repository;
+			path = Data;
 			sourceTree = "<group>";
 		};
 		B002A206291D98880084DA72 /* Utils */ = {
@@ -351,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B002A1D7291D97CE0084DA72 /* Cats.xcdatamodeld in Sources */,
+				B002A219291D9FB10084DA72 /* CatsViewModel.swift in Sources */,
 				B002A1D1291D97CE0084DA72 /* ViewController.swift in Sources */,
 				B002A216291D9C1F0084DA72 /* CustomTableViewCell.swift in Sources */,
 				B002A20D291D98DB0084DA72 /* NetWorkingValidator.swift in Sources */,
@@ -359,7 +363,7 @@
 				B002A1CD291D97CE0084DA72 /* AppDelegate.swift in Sources */,
 				B002A1CF291D97CE0084DA72 /* SceneDelegate.swift in Sources */,
 				B002A20B291D98BB0084DA72 /* Thread.swift in Sources */,
-				B002A212291D9B660084DA72 /* CatsRepository.swift in Sources */,
+				B002A212291D9B660084DA72 /* ApiCats.swift in Sources */,
 				B002A209291D98AD0084DA72 /* ImageService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

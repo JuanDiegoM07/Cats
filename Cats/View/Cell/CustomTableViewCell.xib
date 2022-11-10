@@ -9,7 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="234" id="KGk-i7-Jjw" customClass="CustomTableViewCell" customModule="Cats" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="234" id="KGk-i7-Jjw" customClass="CustomTableViewCell" customModule="Cats" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="317" height="234"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -57,6 +57,12 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="catImage" destination="8mU-du-l4R" id="9TS-2O-pjg"/>
+                <outlet property="inteligenceLabel" destination="Atp-7V-hnC" id="E8s-2Z-zFs"/>
+                <outlet property="name" destination="lW0-Y2-WZ4" id="ncI-tL-NEt"/>
+                <outlet property="originCountry" destination="dfS-Of-0t5" id="MHP-4L-Is0"/>
+            </connections>
             <point key="canvasLocation" x="135.50724637681159" y="177.45535714285714"/>
         </tableViewCell>
     </objects>

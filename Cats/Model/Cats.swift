@@ -8,19 +8,12 @@
 import Foundation
 
 
-struct Cats: Decodable {
+struct Cat: Decodable {
     
     let name: String?
     let origin: String?
     let intelligence: Int?
-    let url: image?
-    
-    init(name: String?, origin: String?, intelligence: Int?, url: image? ) {
-        self.name = name
-        self.origin = origin
-        self.intelligence = intelligence
-        self.url = url
-    }
+    let image: image?
     
 }
 
