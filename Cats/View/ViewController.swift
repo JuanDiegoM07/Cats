@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Cats
 //
-//  Created by Wilson David Molina Lozano on 10/11/22.
+//  Created by Juan Diego Marin on 10/11/22.
 //
 
 import UIKit
@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         tableView.register(.init(nibName: "CustomTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
         tableView.delegate = self
         tableView.dataSource = self
-        viewModel.getBanks()
+        viewModel.getCats()
         viewModel.success = {
             self.tableView.reloadData()
         }

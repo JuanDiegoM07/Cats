@@ -2,7 +2,7 @@
 //  NetWorkingValidator.swift
 //  Cats
 //
-//  Created by Wilson David Molina Lozano on 10/11/22.
+//  Created Juan Diego Marin on 10/11/22.
 //
 
 import Foundation

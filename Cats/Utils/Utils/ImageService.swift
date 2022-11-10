@@ -2,11 +2,11 @@
 //  ImageService.swift
 //  Cats
 //
-//  Created by Wilson David Molina Lozano on 10/11/22.
+//  Created by Juan Diego Marin on 10/11/22.
 //
 
-import UIKit
 
+import UIKit
 final class ImageService {
 
     private static var images = NSCache<NSString, NSData>()

@@ -2,7 +2,7 @@
 //  Cats.swift
 //  Cats
 //
-//  Created by Wilson David Molina Lozano on 10/11/22.
+//  Created by Juan Diego Marin on 10/11/22.
 //
 
 import Foundation
@@ -21,7 +21,4 @@ struct Cat: Decodable {
 struct image: Decodable {
     let url: String?
     
-    init(url: String?) {
-        self.url = url
-    }
 }

@@ -14,7 +14,7 @@
 		B002A1D7291D97CE0084DA72 /* Cats.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B002A1D5291D97CE0084DA72 /* Cats.xcdatamodeld */; };
 		B002A1D9291D97D10084DA72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B002A1D8291D97D10084DA72 /* Assets.xcassets */; };
 		B002A1DC291D97D10084DA72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B002A1DA291D97D10084DA72 /* LaunchScreen.storyboard */; };
-		B002A1E7291D97D10084DA72 /* CatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B002A1E6291D97D10084DA72 /* CatsTests.swift */; };
+		B002A1E7291D97D10084DA72 /* CatsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B002A1E6291D97D10084DA72 /* CatsViewModelTests.swift */; };
 		B002A1F1291D97D10084DA72 /* CatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B002A1F0291D97D10084DA72 /* CatsUITests.swift */; };
 		B002A1F3291D97D10084DA72 /* CatsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B002A1F2291D97D10084DA72 /* CatsUITestsLaunchTests.swift */; };
 		B002A205291D98770084DA72 /* Cats.swift in Sources */ = {isa = PBXBuildFile; fileRef = B002A204291D98770084DA72 /* Cats.swift */; };
@@ -26,6 +26,9 @@
 		B002A216291D9C1F0084DA72 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B002A214291D9C1F0084DA72 /* CustomTableViewCell.swift */; };
 		B002A217291D9C1F0084DA72 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B002A215291D9C1F0084DA72 /* CustomTableViewCell.xib */; };
 		B002A219291D9FB10084DA72 /* CatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B002A218291D9FB10084DA72 /* CatsViewModel.swift */; };
+		B002A21D291DB1C00084DA72 /* ResponseExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B002A21C291DB1C00084DA72 /* ResponseExpectation.swift */; };
+		B002A21F291DB1D40084DA72 /* CatsFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = B002A21E291DB1D40084DA72 /* CatsFake.swift */; };
+		B002A221291DB43C0084DA72 /* CatsRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B002A220291DB43C0084DA72 /* CatsRepositoryMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +59,7 @@
 		B002A1DB291D97D10084DA72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B002A1DD291D97D10084DA72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B002A1E2291D97D10084DA72 /* CatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B002A1E6291D97D10084DA72 /* CatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsTests.swift; sourceTree = "<group>"; };
+		B002A1E6291D97D10084DA72 /* CatsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsViewModelTests.swift; sourceTree = "<group>"; };
 		B002A1EC291D97D10084DA72 /* CatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B002A1F0291D97D10084DA72 /* CatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsUITests.swift; sourceTree = "<group>"; };
 		B002A1F2291D97D10084DA72 /* CatsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -69,6 +72,9 @@
 		B002A214291D9C1F0084DA72 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		B002A215291D9C1F0084DA72 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		B002A218291D9FB10084DA72 /* CatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsViewModel.swift; sourceTree = "<group>"; };
+		B002A21C291DB1C00084DA72 /* ResponseExpectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseExpectation.swift; sourceTree = "<group>"; };
+		B002A21E291DB1D40084DA72 /* CatsFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsFake.swift; sourceTree = "<group>"; };
+		B002A220291DB43C0084DA72 /* CatsRepositoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsRepositoryMock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +143,9 @@
 		B002A1E5291D97D10084DA72 /* CatsTests */ = {
 			isa = PBXGroup;
 			children = (
-				B002A1E6291D97D10084DA72 /* CatsTests.swift */,
+				B002A21A291DB1A50084DA72 /* Utils */,
+				B002A1E6291D97D10084DA72 /* CatsViewModelTests.swift */,
+				B002A21E291DB1D40084DA72 /* CatsFake.swift */,
 			);
 			path = CatsTests;
 			sourceTree = "<group>";
@@ -219,6 +227,23 @@
 				B002A215291D9C1F0084DA72 /* CustomTableViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		B002A21A291DB1A50084DA72 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B002A21B291DB1AD0084DA72 /* Enums */,
+				B002A220291DB43C0084DA72 /* CatsRepositoryMock.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B002A21B291DB1AD0084DA72 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				B002A21C291DB1C00084DA72 /* ResponseExpectation.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,7 +397,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B002A1E7291D97D10084DA72 /* CatsTests.swift in Sources */,
+				B002A221291DB43C0084DA72 /* CatsRepositoryMock.swift in Sources */,
+				B002A1E7291D97D10084DA72 /* CatsViewModelTests.swift in Sources */,
+				B002A21D291DB1C00084DA72 /* ResponseExpectation.swift in Sources */,
+				B002A21F291DB1D40084DA72 /* CatsFake.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
