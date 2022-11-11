@@ -61,9 +61,9 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="catImage" destination="8mU-du-l4R" id="9TS-2O-pjg"/>
-                <outlet property="inteligenceLabel" destination="dfS-Of-0t5" id="BqV-Lz-eGF"/>
+                <outlet property="inteligenceLabel" destination="Atp-7V-hnC" id="HkE-R2-sNp"/>
                 <outlet property="name" destination="lW0-Y2-WZ4" id="ncI-tL-NEt"/>
-                <outlet property="originCountry" destination="Atp-7V-hnC" id="aae-ew-ytx"/>
+                <outlet property="originCountry" destination="dfS-Of-0t5" id="qz6-6M-wW6"/>
             </connections>
             <point key="canvasLocation" x="135.50724637681159" y="177.45535714285714"/>
         </tableViewCell>

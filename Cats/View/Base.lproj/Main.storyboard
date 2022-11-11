@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Catbreeds-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cats" customModuleProvider="target" sceneMemberID="viewController">
@@ -30,7 +30,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cZg-qF-kBd" secondAttribute="bottom" id="rbW-ku-ch4"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="q2s-W8-fjT"/>
+                    <navigationItem key="navigationItem" title="Catbreeds" id="q2s-W8-fjT"/>
                     <connections>
                         <outlet property="tableView" destination="cZg-qF-kBd" id="bEa-dG-eSH"/>
                     </connections>
